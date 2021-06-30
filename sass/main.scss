@@ -1,0 +1,147 @@
+$color-turquoise: #4d96a9;
+$color-purple: #855fb1;
+$color-dark-purple: #28283d;
+$color-grey: #87879d;
+$color-grey-transparent: rgba(135, 135, 157, 0.25);
+$color-blue: #8fe3f9;
+$color-light-purple: #d9b8ff;
+$color-light: #fafafa;
+$color-white: #fff;
+$color-turquoise-hover: #71c0d4;
+$color-purple-hover: #b18bdd;
+
+html {
+    font-size: 0.625em;
+}
+body {
+    margin: 0 auto;
+    font-family: "Red Hat Display", sans-serif;
+    /*     font-size: 1.8rem;
+ */
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $color-grey;
+    font-weight: 500;
+    background-color: $color-light;
+}
+
+h1 {
+    /*     font-size: 6.4rem;
+    line-height: 6.4rem; */
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: $color-dark-purple;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 4.4rem;
+    color: $color-dark-purple;
+    font-weight: 900;
+}
+
+.overline {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: $color-turquoise;
+    font-weight: 900;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+.button {
+    font-family: "Red Hat Display", sans-serif;
+    /*     font-size: 1.8rem;
+ */
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    font-weight: 900;
+    padding: 16px 30px;
+    color: $color-white;
+    border-radius: 30px;
+    width: fit-content;
+    border: unset;
+    
+    span {
+        margin-left: 4px;
+    }
+
+    &-primary {
+        background-color: $color-turquoise;
+        &:hover {
+            background-color: $color-turquoise-hover;
+        }
+        span {
+            color: $color-blue;
+        }
+    }
+
+    &-secondary {
+        background-color: $color-purple;
+        &:hover {
+            background-color: $color-purple-hover;
+        }
+        span {
+            color: $color-light-purple;
+        }
+    }
+}
+
+.main-page {
+    .logo {
+        width: 100%;
+        margin: 48px auto 54px;
+        text-align: center;
+    }
+    .image-hero {
+        background-image: url("../assets/tablet/image-hero.png");
+        background-position: center;
+        width: 100%;
+        height: 153px;
+        background-size: cover;
+    }
+    .cta {
+        h1 {
+            text-align: center;
+            margin: 48px 0 24px 0;
+        }
+        p {
+            margin: 0 24px;
+            text-align: center;
+        }
+        .group-button{
+            display: flex;
+            flex-direction: column;
+            margin-top: 32px;
+            align-items: center;
+            button:not(:last-of-type){
+                margin-bottom: 16px;
+            }
+        }
+    }
+
+    .divider{
+        margin: 64px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        &::before{
+            content: '';
+            width: 1px;
+            height: 84px;
+            border-left: solid 1px $color-grey-transparent;
+
+        }
+        div{
+            width: 54px;
+            height: 54px;
+            border-radius: 100%;
+            border: 1px solid $color-grey-transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

@@ -1,0 +1,130 @@
+html {
+  font-size: 0.625em;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+  /*     font-size: 1.8rem;
+  */
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #87879d;
+  font-weight: 500;
+  background-color: #fafafa;
+}
+
+h1 {
+  /*     font-size: 6.4rem;
+  line-height: 6.4rem; */
+  font-size: 4rem;
+  line-height: 4.4rem;
+  color: #28283d;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.4rem;
+  color: #28283d;
+  font-weight: 900;
+}
+
+.overline {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  color: #4d96a9;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+}
+
+.button {
+  font-family: "Red Hat Display", sans-serif;
+  /*     font-size: 1.8rem;
+  */
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-weight: 900;
+  padding: 16px 30px;
+  color: #fff;
+  border-radius: 30px;
+  width: fit-content;
+  border: unset;
+}
+.button span {
+  margin-left: 4px;
+}
+.button-primary {
+  background-color: #4d96a9;
+}
+.button-primary:hover {
+  background-color: #71c0d4;
+}
+.button-primary span {
+  color: #8fe3f9;
+}
+.button-secondary {
+  background-color: #855fb1;
+}
+.button-secondary:hover {
+  background-color: #b18bdd;
+}
+.button-secondary span {
+  color: #d9b8ff;
+}
+
+.main-page .logo {
+  width: 100%;
+  margin: 48px auto 54px;
+  text-align: center;
+}
+.main-page .image-hero {
+  background-image: url("../assets/tablet/image-hero.png");
+  background-position: center;
+  width: 100%;
+  height: 153px;
+  background-size: cover;
+}
+.main-page .cta h1 {
+  text-align: center;
+  margin: 48px 0 24px 0;
+}
+.main-page .cta p {
+  margin: 0 24px;
+  text-align: center;
+}
+.main-page .cta .group-button {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  align-items: center;
+}
+.main-page .cta .group-button button:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+.main-page .divider {
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 900;
+}
+.main-page .divider::before {
+  content: "";
+  width: 1px;
+  height: 84px;
+  border-left: solid 1px rgba(135, 135, 157, 0.25);
+}
+.main-page .divider div {
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+  border: 1px solid rgba(135, 135, 157, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
