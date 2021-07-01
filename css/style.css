@@ -24,8 +24,10 @@ h1 {
 }
 
 h2 {
-  font-size: 4rem;
-  line-height: 4.4rem;
+  /*     font-size: 4rem;
+  line-height: 4.4rem; */
+  font-size: 3.2rem;
+  line-height: 3.6rem;
   color: #28283d;
   font-weight: 900;
 }
@@ -86,12 +88,15 @@ h2 {
   height: 153px;
   background-size: cover;
 }
+.main-page .cta {
+  margin: 48px 24px 64px;
+}
 .main-page .cta h1 {
   text-align: center;
   margin: 48px 0 24px 0;
 }
 .main-page .cta p {
-  margin: 0 24px;
+  margin: 0;
   text-align: center;
 }
 .main-page .cta .group-button {
@@ -104,7 +109,7 @@ h2 {
   margin-bottom: 16px;
 }
 .main-page .divider {
-  margin: 64px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -117,7 +122,7 @@ h2 {
   height: 84px;
   border-left: solid 1px rgba(135, 135, 157, 0.25);
 }
-.main-page .divider div {
+.main-page .divider .circle {
   width: 54px;
   height: 54px;
   border-radius: 100%;
@@ -125,6 +130,80 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 2;
+  background-color: #fafafa;
+}
+.main-page .images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 25px;
+  justify-content: center;
+  margin: 64px 0;
+}
+.main-page .images img {
+  height: 143px;
+  width: 151px;
+  border-radius: 8px;
+}
+.main-page .build {
+  text-align: center;
+  margin: 0 24px 64px 24px;
+}
+.main-page .build h2 {
+  margin: 24px 0 32px;
+}
+.main-page .second-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.main-page .second-section .experience {
+  position: absolute;
+  top: 50%;
+  /*             background-color: $color-turquoise;
+  */
+  width: 100%;
+  background: linear-gradient(rgba(77, 151, 169, 0.815), rgba(77, 151, 169, 0.815)), url("../assets/mobile/image-footer.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.main-page .second-section .experience div {
+  margin: 92px 24px 72px 24px;
+  text-align: center;
+  color: #fff;
+}
+.main-page .second-section .experience div h2 {
+  color: #fff;
+  margin: 0;
+  margin-bottom: 24px;
+}
+.main-page .second-section .experience div p {
+  margin: 0;
+  margin-bottom: 36px;
+  font-weight: 500;
+}
+.main-page .second-section .experience div button {
+  padding: 16px 40px;
+}
+
+@media screen and (min-width: 680px) {
+  h1 {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+  }
+
+  .main-page .logo {
+    margin-bottom: 64px;
+  }
+  .main-page .image-hero {
+    height: 303px;
+  }
+  .main-page .cta {
+    margin: 72px 155px 80px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
