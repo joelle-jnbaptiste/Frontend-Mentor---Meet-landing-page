@@ -23,13 +23,14 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop](https://i.imgur.com/AT8OiEt.png)
-![mobile](https://i.imgur.com/p7IlRhG.png)
+![desktop](https://i.imgur.com/TaZ8vyi.png)
+![tablet](https://i.imgur.com/cCKWWN9.png)
+![mobile](https://i.imgur.com/5gi572d.png)
 
 ### Links
 
-- [Solution URL](https://github.com/joelle-jnbaptiste/Frontend-mentor---Stats-preview-card-component)
-- [Live Site URL](https://joelle-jnbaptiste.github.io/Frontend-mentor---Stats-preview-card-component/)
+- [Solution URL](https://github.com/joelle-jnbaptiste/Frontend-Mentor---Meet-landing-page)
+- [Live Site URL](https://joelle-jnbaptiste.github.io/Frontend-Mentor---Meet-landing-page/)
 
 
 ### Built with
