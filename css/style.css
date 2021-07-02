@@ -259,7 +259,7 @@ h2 {
   }
   .main-page .cta .image-right-hero {
     background: url("../assets/desktop/image-hero-right.png") no-repeat;
-    background-position: top left;
+    background-position: bottom left;
     flex-grow: 1;
   }
   .main-page .cta .header {
